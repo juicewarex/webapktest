@@ -142,3 +142,9 @@
     opacity: 50%;
     transition: .2s;
 }
+
+
+.clip:hover {
+    opacity: 60%;
+    transition: .2s;
+}
