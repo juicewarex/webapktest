@@ -4,6 +4,18 @@ function instagram() {
     let newWindow = window.open(url);
 }
 
+function telegram() {
+    document.getElementById('tele');
+    let url = "https://telegram.org/";
+    let newWindow = window.open(url);
+}
+
+function twitter() {
+    document.getElementById('twit');
+    let url = "https://x.com"
+    let newWindow = window.open(url);
+}
+
 let isFunctionRunning = false;
 
 function zay() {
