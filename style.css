@@ -1,0 +1,144 @@
+.div1 {
+    justify-content: left;
+    display: grid;
+    border: #0d89eeff;
+    background-color: rgb(8, 8, 8);;
+    width: fit-content;
+    border-style: solid;
+    box-sizing: border-box;
+    border:  solid #0d89eeff; 
+    padding: 10px; 
+    width: 200px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+.div2 {
+    display: flex;
+    align-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: 421px;
+    background-color: rgb(8, 8, 8);
+    width: 1500px; 
+    height: 50vh; 
+    padding: 30px;
+    border: 3px solid #0d89eeff;
+    box-sizing: border-box;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+
+
+.txt {
+    margin-left: 4px;
+    margin-bottom: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.txt2 {
+    height: 50px;
+    border: 3px solid #0d89eeff;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    margin-left: 400;
+    margin-bottom: 270px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    transition: .2s;
+}
+
+.txt2:hover {
+    border-top-style: solid;
+    transition: .06s;
+}
+
+.images {
+    padding-left: 10%;
+    margin-right: 5%;
+    opacity: calc(50%);
+    transition: .2s;
+    -webkit-user-drag: none;
+
+}
+
+.images:hover {
+    opacity: calc(100%);
+    transition: .2s;
+}
+
+.clip {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    transition: .2s;
+}
+
+.clip:active {
+    transition: .2s;
+}
+
+.header1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    user-select: none;
+    height: 1000%;
+    width: fit-content;
+    transition: .2s;
+    /* text-shadow: 3px 3px 4px #ffffff;*/
+}
+
+
+
+
+.a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0d89eeff;
+    text-decoration: none;
+    font-size: x-large;
+    transition: .2s;
+    user-select: none;
+    font-weight: bold;
+    -webkit-user-drag: none;
+}
+.a:hover {
+    color: rgb(11, 75, 127);
+    transition: .2s;
+}
+
+.instagram {
+    justify-content: left;
+    align-self: center;
+    padding-left: 5%;
+    margin-right: 1%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    -webkit-user-drag: none;
+    transition: .2s;
+}
+
+.instagram:hover {
+    opacity: 50%;
+    transition: .2s;
+}
