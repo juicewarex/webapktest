@@ -39,26 +39,42 @@
 
 
 .txt {
-    margin-left: 4px;
-    margin-bottom: 400px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    user-select: none;
-}
-
-.txt2 {
-    height: 50px;
     border: 3px solid #0d89eeff;
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
     border-bottom-style: none;
-    margin-left: 400;
-    margin-bottom: 270px;
+    margin-left: 4px;
+    margin-bottom: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    transition: .06s;
+}
+
+.txt:hover {
+    transition: .06s;
+    border-bottom-style: solid;
+}
+
+.txt2 {
+    position: absolute;
+    top: 60px;
+    height: 5%;
+    width: 30%;
+    border: 3px solid #0d89eeff;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    margin-left: 100;
+    justify-self: left;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
     transition: .2s;
+    margin-left: 52%;
+    margin-top: 65px; 
 }
 
 .txt2:hover {
@@ -146,5 +162,33 @@
 
 .clip:hover {
     opacity: 60%;
+    transition: .2s;
+}
+
+.bird {
+    justify-content: left;
+    align-self: center;
+    padding-left: 5%;
+    margin-right: 1%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    -webkit-user-drag: none;
+    transition: .2s;
+}
+
+
+.div3 {
+    justify-content: left;
+    inline-size: none;
+    padding-left: 5%;
+    margin-right: 1%;
+    margin-top: -30px; /* add this line */
+    cursor: pointer;
+    border: none;
+    background: none;
+    -webkit-user-drag: none;
     transition: .2s;
 }
