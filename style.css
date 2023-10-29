@@ -192,3 +192,33 @@
     -webkit-user-drag: none;
     transition: .2s;
 }
+
+.txt3 {
+    top: 70px;
+    height: 50%;
+    width: 30%;
+    border: 3px solid #0d89eeff;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    margin-left: 100;
+    justify-self: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    transition: .2s;
+
+}
+
+.imagesgal {
+    align-items: center;
+    height: 250px;
+    border: 2px solid #0d89eeff;
+    align-self: auto;
+    border-radius: 2%;
+    justify-content: center;
+    align-self: center;
+    opacity: calc(90%);
+    -webkit-user-drag: none;
+}
